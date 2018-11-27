@@ -6,7 +6,7 @@
 
 ## Let's make a fancy cake
 ![alt text](assets/mocha-dacquoise.jpg "Mocha Dacquoise Cake")
-Mocha Dacquoise
+#### Mocha Dacquoise
 
 
 
@@ -22,7 +22,7 @@ Mocha Dacquoise
 
 ## Each step consists of more steps
 
-### for example 'make buttercream' consists of: <!-- .element: class="fragment" data-fragment-index="1" -->
+### for example, 'make buttercream' consists of: <!-- .element: class="fragment" data-fragment-index="1" -->
 * make syrup <!-- .element: class="fragment" data-fragment-index="2" -->
 * whisk egg yolks
 * whisk syrup into egg yolks
@@ -30,7 +30,7 @@ Mocha Dacquoise
 
 
 
-### and of course 'make syrup' has a couple of steps:
+### and of course, 'make syrup' also has a couple of steps:
 * In a high-sided saucepan over medium heat, add the coffee and sugar. 
 * Set a candy or deep-fat thermometer into the pan and heat until the mixture registers 265&deg;F.
 
@@ -43,7 +43,7 @@ Mocha Dacquoise
 
 
 
-## Let's say we are currently making the syrup for our cake
+## Let's say we are currently making the syrup for the buttercream for the cake.
 
 
 
@@ -83,7 +83,7 @@ TypeError: salt is not sugar
 
 
 
-## Sometimes something goes wrong in a step that has completed
+## Sometimes something goes wrong in a step that has already completed
 
 ```
 Traceback (most recent call last):
@@ -97,7 +97,7 @@ AttributeError: buttercream too thin, slid off cake
 ```
 
 ## In this case, the error did not show up until after the step that caused it.
-## This makes for more difficult troubleshooting.
+## This makes for more difficult troubleshooting for code, and sometimes cakes.
 
 
 
