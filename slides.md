@@ -24,8 +24,8 @@
 
 ### for example, 'make buttercream' consists of: <!-- .element: class="fragment" data-fragment-index="1" -->
 * make syrup <!-- .element: class="fragment" data-fragment-index="2" -->
-* whisk egg yolks
-* whisk syrup into egg yolks
+* whisk egg yolks <!-- .element: class="fragment" data-fragment-index="2" -->
+* whisk syrup into egg yolks <!-- .element: class="fragment" data-fragment-index="2" -->
 
 
 
