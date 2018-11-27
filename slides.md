@@ -21,7 +21,7 @@
 
 ## Each step consists of more steps
 
-### for example make buttercream consists of:
+### for example make buttercream consists of: <!-- .element: class="fragment" data-fragment-index="1" -->
 * make syrup
 * whisk egg yolks
 * whisk syrup into egg yolks
@@ -36,21 +36,25 @@
 
 
 
-# Code is instructions for a computer
-# like a recipe is instructions for a cook
+## Code is instructions for a computer
+## like a recipe is instructions for a cook
 
 
 
 
-## We are making the syrup for the buttercream
+## Let's say we are currently making the syrup for our cake
+
+
+
+
 ## A stack is a list of the steps we have started, but not completed so far:
 
 * make cake
 * make buttercream
 * make syrup
 
-make buttercream is not there, because we finished making the buttercream.
-make chantilly isn't there, because we have not started making the chantilly.
+#### make meringue is not there, because we finished making the meringue.
+#### make chantilly isn't there, because we have not started making the chantilly.
 
 
 
