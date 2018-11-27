@@ -31,7 +31,7 @@
 
 ### and of course make syrup has a couple of steps:
 * In a high-sided saucepan over medium heat, add the coffee and sugar. 
-* Set a candy or deep-fat thermometer into the pan and heat until the mixture registers 265°.
+* Set a candy or deep-fat thermometer into the pan and heat until the mixture registers 265&deg;F.
 
 
 
