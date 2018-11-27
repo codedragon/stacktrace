@@ -6,6 +6,7 @@
 
 ## Let's make a fancy cake
 ![alt text](assets/mocha-dacquoise.jpg "Mocha Dacquoise Cake")
+Mocha Dacquoise
 
 
 
@@ -65,7 +66,7 @@
 ```
 Traceback (most recent call last):
   File "make_cake.py", line 15, in <module>
-    make_cake(ingredients)
+    cake = make_cake(ingredients)
   File "make_cake.py", line 3, in make_cake
     buttercream=make_buttercream(syrup, egg_yolks)
   File "make_cake.py", line 9, in make_buttercream
@@ -78,7 +79,25 @@ TypeError: salt is not sugar
 
 
 
+## Sometimes something goes wrong in a step that has completed
+
+```
+Traceback (most recent call last):
+  File "make_cake.py", line 15, in <module>
+    cake = make_cake(ingredients)
+  File "make_cake.py", line 3, in make_cake
+    assemble_cake(meringue, buttercream, chantilly)
+  File "make_cake.py", line 13, in assemble_cake
+    spread_buttercream(buttercream)
+AttributeError: buttercream too thin, slid off cake
+```
+
+## In this case, the error did not show up until after the step that caused it.
+## This makes for more difficult troubleshooting.
+
+
+
+
 ## The stack is a list of the steps we have started, but not completed so far
 
 ## A stacktrace is the stack at the moment something has obviously gone wrong
-
