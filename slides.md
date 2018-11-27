@@ -56,8 +56,8 @@
 
 ## This is called the Stack
 
-### 'make meringue' isn't there: we finished making it.<!-- .element: class="fragment" data-fragment-index="1" -->
-### 'make chantilly' isn't there: we have not started making it.<!-- .element: class="fragment" data-fragment-index="2" -->
+#### 'make meringue' isn't there: we finished making it.<!-- .element: class="fragment" data-fragment-index="1" -->
+#### 'make chantilly' isn't there: we have not started making it.<!-- .element: class="fragment" data-fragment-index="2" -->
 
 
 
@@ -67,7 +67,7 @@
 
 
 
-## We end up with a stack:
+## We end up with a stack, but now called the stacktrace:
 
 ```
 Traceback (most recent call last):
@@ -99,7 +99,11 @@ AttributeError: buttercream too thin, slid off cake
 ```
 
 ### In this case, the error did not show up until after the step that caused it.
-### This makes for more difficult troubleshooting for code, and sometimes cakes.
+
+
+
+
+## This makes for more difficult troubleshooting for code, and sometimes cakes.
 
 
 
