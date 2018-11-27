@@ -77,14 +77,8 @@ TypeError: salt is not sugar
 
 
 
-## A stacktrace is just the stack at the moment something goes wrong
 
+## The stack is a list of the steps we have started, but not completed so far
 
+## A stacktrace is the stack at the moment something has obviously gone wrong
 
-
-## It is entirely possible that something will go wrong and it will 
-## not be noticed until later. So the step where the problem actually is may
-## not be in the stacktrace.
-
-## For example: we put salt in the syrup instead of sugar and no one caught it until 
-## tasting. Much harder to troubleshoot. 
