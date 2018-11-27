@@ -22,15 +22,15 @@ Mocha Dacquoise
 
 ## Each step consists of more steps
 
-### for example make buttercream consists of: <!-- .element: class="fragment" data-fragment-index="1" -->
-* make syrup
+### for example 'make buttercream' consists of: <!-- .element: class="fragment" data-fragment-index="1" -->
+* make syrup <!-- .element: class="fragment" data-fragment-index="2" -->
 * whisk egg yolks
 * whisk syrup into egg yolks
 
 
 
 
-### and of course make syrup has a couple of steps:
+### and of course 'make syrup' has a couple of steps:
 * In a high-sided saucepan over medium heat, add the coffee and sugar. 
 * Set a candy or deep-fat thermometer into the pan and heat until the mixture registers 265&deg;F.
 
@@ -48,19 +48,23 @@ Mocha Dacquoise
 
 
 
-## A stack is a list of the steps we have started, but not completed so far:
+## A stack is a list of the steps we have started, but not yet completed:
 
 * make cake
 * make buttercream
 * make syrup
 
-#### make meringue is not there, because we finished making the meringue.
-#### make chantilly isn't there, because we have not started making the chantilly.
+#### 'make meringue' is not there, because we finished making the meringue.<!-- .element: class="fragment" data-fragment-index="1" -->
+#### 'make chantilly' isn't there, because we have not started making the chantilly.<!-- .element: class="fragment" data-fragment-index="2" -->
 
 
 
 
 ## What happens if something goes wrong while making the syrup? 
+
+
+
+
 ## We end up with a stack as shown above:
 
 ```
@@ -98,6 +102,6 @@ AttributeError: buttercream too thin, slid off cake
 
 
 
-## The stack is a list of the steps we have started, but not completed so far
+## The stack is a list of the steps we have started, but not completed so far.
 
-## A stacktrace is the stack at the moment something has obviously gone wrong
+## A stacktrace is the stack at the moment something has obviously gone wrong.
