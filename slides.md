@@ -43,7 +43,7 @@
 
 
 
-## Let's say we are currently making the syrup for the buttercream for the cake.
+## Let's say we are currently adding the sugar to make the syrup for the buttercream for the cake.
 
 
 
@@ -53,6 +53,7 @@
 * make cake
 * make buttercream
 * make syrup
+* add sugar
 
 ## This is called the Stack<!-- .element: class="fragment" data-fragment-index="1" -->
 
@@ -69,7 +70,7 @@
 
 
 
-## We end up with a stack, but now called the stacktrace:
+## We end up with a stack, but now it's called the stacktrace:
 
 ```
 Traceback (most recent call last):
@@ -83,6 +84,16 @@ Traceback (most recent call last):
     add_sugar(salt)
 TypeError: salt is not sugar
 ```
+
+
+
+
+## We end up with a stack, but now it's called the stacktrace:
+
+"make_cake"
+"make_buttercream"
+"make_syrup"
+"add_sugar"
 
 
 
