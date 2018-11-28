@@ -46,8 +46,8 @@ $selectionColor: #fff;
 // Background
 $backgroundColor: #f7fbfc;
 @mixin bodyBackground() {
-	// @include radial-gradient-image( rgba(0, 0, 0, .2), 'topographic-bg.png' );
-	background: url('topographic-bg.png');
+	// @include radial-gradient-image( rgba(0, 0, 0, .2), 'mitch-harris-513049-unsplash.jpg' );
+	background: url('mitch-harris-513049-unsplash.jpg');
 }
 
 
