@@ -70,7 +70,7 @@
 
 
 
-## We end up with a stack, but now it's called the stacktrace:
+## The stack now shows us what we were doing when things went wrong
 
 ```
 Traceback (most recent call last):
@@ -85,15 +85,15 @@ Traceback (most recent call last):
 TypeError: salt is not sugar
 ```
 
+## This is called the stacktrace <!-- .element: class="fragment" data-fragment-index="1" -->
 
 
 
-## We end up with a stack, but now it's called the stacktrace:
 
-"make_cake"
-"make_buttercream"
-"make_syrup"
-"add_sugar"
+### "make_cake(ingredients)"
+### "make_buttercream(ingredients)"
+### "make_syrup(coffee, sugar)"
+### "add_sugar(salt)"
 
 
 
