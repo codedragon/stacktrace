@@ -79,7 +79,7 @@ Traceback (most recent call last):
   File "make_cake.py", line 3, in make_cake
     buttercream=make_buttercream(buttercream_ingredients)
   File "make_cake.py", line 9, in make_buttercream
-    syrup=make_syrup(coffee, sugar) 
+    syrup=make_syrup(coffee, salt) 
   File "make_cake.py", line 13, in make_syrup
     add_sugar(salt)
 TypeError: salt is not sugar
@@ -90,13 +90,10 @@ TypeError: salt is not sugar
 
 
 
-### make_cake(ingredients)
-
-### make_buttercream(buttercream_ingredients)
-
-### make_syrup(coffee, sugar)
-
-### add_sugar(salt)
+* make_cake(ingredients)
+* make_buttercream(buttercream_ingr)
+* make_syrup(coffee, salt)
+* add_sugar(salt)
 
 
 
@@ -119,7 +116,7 @@ AttributeError: buttercream too thin, slid off cake
 
 
 
-## This makes for more difficult troubleshooting for code, and sometimes cakes.
+## This can make for more difficult troubleshooting with code, and sometimes cakes.
 
 
 
