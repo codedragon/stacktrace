@@ -54,10 +54,10 @@
 * make buttercream
 * make syrup
 
-## This is called the Stack
+## This is called the Stack<!-- .element: class="fragment" data-fragment-index="1" -->
 
-#### 'make meringue' isn't there: we finished making it.<!-- .element: class="fragment" data-fragment-index="1" -->
-#### 'make chantilly' isn't there: we have not started making it.<!-- .element: class="fragment" data-fragment-index="2" -->
+#### 'make meringue' isn't there: we finished making it.<!-- .element: class="fragment" data-fragment-index="2" -->
+#### 'make chantilly' isn't there: we haven't started making it.<!-- .element: class="fragment" data-fragment-index="3" -->
 
 
 
@@ -68,6 +68,22 @@
 
 
 ## We end up with a stack, but now called the stacktrace:
+
+```
+Traceback (most recent call last):
+  File "make_cake.py", line 15, in <module>
+    cake = make_cake(ingredients)
+  File "make_cake.py", line 3, in make_cake
+    buttercream=make_buttercream(syrup, egg_yolks)
+  File "make_cake.py", line 9, in make_buttercream
+    syrup=make_syrup(coffee, sugar) 
+  File "make_cake.py", line 13, in make_syrup
+    add_sugar(salt)
+TypeError: salt is not sugar
+```
+
+
+
 
 ```
 Traceback (most recent call last):
@@ -109,5 +125,8 @@ AttributeError: buttercream too thin, slid off cake
 
 
 ## The stack is a list of the steps we have started, but not completed so far.
+
+
+
 
 ## A stacktrace is the stack at the moment something has obviously gone wrong.
