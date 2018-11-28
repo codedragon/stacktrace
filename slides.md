@@ -77,7 +77,7 @@ Traceback (most recent call last):
   File "make_cake.py", line 15, in <module>
     cake = make_cake(ingredients)
   File "make_cake.py", line 3, in make_cake
-    buttercream=make_buttercream(syrup, egg_yolks)
+    buttercream=make_buttercream(buttercream_ingredients)
   File "make_cake.py", line 9, in make_buttercream
     syrup=make_syrup(coffee, sugar) 
   File "make_cake.py", line 13, in make_syrup
