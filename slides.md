@@ -90,10 +90,10 @@ TypeError: salt is not sugar
 
 
 
-### "make_cake(ingredients)"
-### "make_buttercream(ingredients)"
-### "make_syrup(coffee, sugar)"
-### "add_sugar(salt)"
+> ### "make_cake(ingredients)"
+> ### "make_buttercream(ingredients)"
+> ### "make_syrup(coffee, sugar)"
+> ### "add_sugar(salt)"
 
 
 
