@@ -62,7 +62,7 @@
 
 
 
-## What happens if something goes wrong while making the syrup? 
+### What happens if something goes wrong while making the syrup? 
 
 ![alt text](assets/salt_sugar.jpg "Salt or Sugar")
 
