@@ -64,26 +64,12 @@
 
 ## What happens if something goes wrong while making the syrup? 
 
+![alt text](assets/salt_sugar.jpg "Salt or Sugar")
+
 
 
 
 ## We end up with a stack, but now called the stacktrace:
-
-```
-Traceback (most recent call last):
-  File "make_cake.py", line 15, in <module>
-    cake = make_cake(ingredients)
-  File "make_cake.py", line 3, in make_cake
-    buttercream=make_buttercream(syrup, egg_yolks)
-  File "make_cake.py", line 9, in make_buttercream
-    syrup=make_syrup(coffee, sugar) 
-  File "make_cake.py", line 13, in make_syrup
-    add_sugar(salt)
-TypeError: salt is not sugar
-```
-
-
-
 
 ```
 Traceback (most recent call last):
@@ -120,6 +106,11 @@ AttributeError: buttercream too thin, slid off cake
 
 
 ## This makes for more difficult troubleshooting for code, and sometimes cakes.
+
+
+
+
+![alt text](assets/cakewreck.jpg "Awesome Cake")
 
 
 
