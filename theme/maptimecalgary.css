@@ -19,7 +19,7 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: url("mitch-harris-513049-unsplash.jpg");
+  background: url("Newspaperrock.jpeg");
   background-color: #f7fbfc; }
 
 .reveal {
@@ -159,15 +159,13 @@ body {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
 
 .reveal code {
-  font-family: monospace;
-  font-size: 1.2em; }
+  font-family: monospace; }
 
 .reveal pre code {
   display: block;
   padding: 5px;
   overflow: auto;
   max-height: 400px;
-  font-size: 1.2em;
   word-wrap: normal;
   background: #3F3F3F;
   color: #DCDCDC; }
