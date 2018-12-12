@@ -72,7 +72,7 @@
 
 
 
-## The stack now shows us what we were doing when things became obvious something went wrong
+## The stack now shows us what we were doing when it became obvious something went wrong
 
 ```
 Traceback (most recent call last):
@@ -111,6 +111,7 @@ TypeError: salt is not sugar
 
 
 
+
 ## Why do I care?
 
 
@@ -121,7 +122,7 @@ TypeError: salt is not sugar
 
 
 
-### You now know the importance of the stacktrace when reporting a bug, and will include it.<!-- .element: class="fragment" data-fragment-index="0" -->
+### You now know the importance of the stacktrace when reporting a bug, and will include it.
 
 ### Life lesson: When things go wrong, trouble shoot systematically.<!-- .element: class="fragment" data-fragment-index="1" -->
 
@@ -133,3 +134,10 @@ TypeError: salt is not sugar
 ### The stack is a list of the steps we have started, but not completed so far.<!-- .element: class="fragment" data-fragment-index="0" -->
 
 ### A stacktrace is the stack at the moment something has obviously gone wrong.<!-- .element: class="fragment" data-fragment-index="1" -->
+
+
+
+
+# Thank you
+
+# May all of your troubles be easy to troubleshoot.
