@@ -43,6 +43,7 @@
 
 
 
+![alt text](assets/how-to-make-golden-syrup.jpg "https://nishamadhulika.com/en/788-homemade-golden-syrup.html")
 ## Let's say we are currently adding the sugar to make the syrup for the buttercream for the cake.
 
 
@@ -50,10 +51,10 @@
 
 ## Things we have started, but not yet completed:
 
-* make cake
-* make buttercream
-* make syrup
-* add sugar
+* started making cake
+* started making buttercream
+* started making syrup
+* started adding sugar
 
 ## This is called the Stack<!-- .element: class="fragment" data-fragment-index="1" -->
 
