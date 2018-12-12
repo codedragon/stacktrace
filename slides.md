@@ -45,8 +45,6 @@
 
 ![alt text](assets/how-to-make-golden-syrup.jpg "https://nishamadhulika.com/en/788-homemade-golden-syrup.html")
 
-### Let's say we are currently adding the sugar to make the syrup for the buttercream for the cake.
-
 
 
 
@@ -96,6 +94,7 @@ TypeError: salt is not sugar
 * make_buttercream(buttercream_ingr)
 * make_syrup(coffee, salt)
 * add_sugar(salt)
+TypeError: salt is not sugar
 
 ## Read from the bottom up
 
