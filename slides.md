@@ -59,8 +59,8 @@
 
 ## This is called the Stack<!-- .element: class="fragment" data-fragment-index="1" -->
 
-#### 'make meringue' isn't there: we finished making it.<!-- .element: class="fragment" data-fragment-index="2" -->
-#### 'make chantilly' isn't there: we haven't started making it.<!-- .element: class="fragment" data-fragment-index="3" -->
+#### 'meringue' isn't there: we finished making it.<!-- .element: class="fragment" data-fragment-index="2" -->
+#### 'chantilly' isn't there: we haven't started making it.<!-- .element: class="fragment" data-fragment-index="3" -->
 
 
 
@@ -111,17 +111,17 @@ TypeError: salt is not sugar
 
 
 
-# Why do I care?
+## Why do I care?
 
-## Obviously useful to know what a stack trace is when someone asks for one or you want to be helpful.<!-- .element: class="fragment" data-fragment-index="0" -->
+### You now know the importance of the stacktrace when reporting a bug, and will include it.<!-- .element: class="fragment" data-fragment-index="0" -->
 
-## When things go wrong, trouble shoot systematically. Step backwards, retrace your steps.<!-- .element: class="fragment" data-fragment-index="1" -->
-
-
+### Life lesson: When things go wrong, trouble shoot systematically. Step backwards, retrace your steps.<!-- .element: class="fragment" data-fragment-index="1" -->
 
 
-# Review
 
-## The stack is a list of the steps we have started, but not completed so far.<!-- .element: class="fragment" data-fragment-index="0" -->
 
-## A stacktrace is the stack at the moment something has obviously gone wrong.<!-- .element: class="fragment" data-fragment-index="1" -->
+## Review
+
+### The stack is a list of the steps we have started, but not completed so far.<!-- .element: class="fragment" data-fragment-index="0" -->
+
+### A stacktrace is the stack at the moment something has obviously gone wrong.<!-- .element: class="fragment" data-fragment-index="1" -->
