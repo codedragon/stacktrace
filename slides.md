@@ -45,7 +45,7 @@
 
 ![alt text](assets/how-to-make-golden-syrup.jpg "https://nishamadhulika.com/en/788-homemade-golden-syrup.html")
 
-[comment]: # Let's say we are currently adding the sugar to make the syrup for the buttercream for the cake.
+### Let's say we are currently adding the sugar to make the syrup for the buttercream for the cake.
 
 
 
