@@ -31,7 +31,7 @@
 
 
 ### and of course, 'make syrup' also has a couple of steps:
-* In a high-sided saucepan over medium heat, add the coffee and sugar. 
+* In a high-sided saucepan over medium heat, add the coffee and sugar.
 * Set a candy or deep-fat thermometer into the pan and heat until the mixture registers 265&deg;F.
 
 
@@ -63,23 +63,23 @@
 
 
 
-### What happens if something goes wrong while making the syrup? 
+### What happens if something goes wrong while making the syrup?
 
 ![alt text](assets/salt_sugar.jpg "Salt or Sugar")
 
 
 
 
-## The stack now shows us what we were doing when things went wrong
+## The stack now shows us what we were doing when things became obvious something went wrong
 
 ```
 Traceback (most recent call last):
   File "make_cake.py", line 15, in <module>
-    cake = make_cake(ingredients)
+    cake = make_cake()
   File "make_cake.py", line 3, in make_cake
     buttercream=make_buttercream(buttercream_ingredients)
   File "make_cake.py", line 9, in make_buttercream
-    syrup=make_syrup(coffee, salt) 
+    syrup=make_syrup(coffee, salt)
   File "make_cake.py", line 13, in make_syrup
     add_sugar(salt)
 TypeError: salt is not sugar
@@ -90,28 +90,12 @@ TypeError: salt is not sugar
 
 
 
-* make_cake(ingredients)
+* make_cake()
 * make_buttercream(buttercream_ingr)
 * make_syrup(coffee, salt)
 * add_sugar(salt)
 
-
-
-
-### Sometimes something goes wrong in a step that has already completed
-
-```
-Traceback (most recent call last):
-  File "make_cake.py", line 15, in <module>
-    cake = make_cake(ingredients)
-  File "make_cake.py", line 3, in make_cake
-    assemble_cake(meringue, buttercream, chantilly)
-  File "make_cake.py", line 13, in assemble_cake
-    spread_buttercream(buttercream)
-AttributeError: buttercream too thin, slid off cake
-```
-
-### In this case, the error did not show up until after the step that caused it.
+## Read from the bottom up
 
 
 
@@ -125,10 +109,17 @@ AttributeError: buttercream too thin, slid off cake
 
 
 
+# Why do I care?
 
-## The stack is a list of the steps we have started, but not completed so far.
+## Obviously useful to know what a stack trace is when someone asks for one or you want to be helpful.<!-- .element: class="fragment" data-fragment-index="0" -->
+
+## When things go wrong, trouble shoot systematically. Step backwards, retrace your steps.<!-- .element: class="fragment" data-fragment-index="1" -->
 
 
 
 
-## A stacktrace is the stack at the moment something has obviously gone wrong.
+# Review
+
+## The stack is a list of the steps we have started, but not completed so far.<!-- .element: class="fragment" data-fragment-index="0" -->
+
+## A stacktrace is the stack at the moment something has obviously gone wrong.<!-- .element: class="fragment" data-fragment-index="1" -->
