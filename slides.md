@@ -113,6 +113,14 @@ TypeError: salt is not sugar
 
 ## Why do I care?
 
+
+
+
+![alt text](assets/stacktrace.png "Stack Trace from website")
+
+
+
+
 ### You now know the importance of the stacktrace when reporting a bug, and will include it.<!-- .element: class="fragment" data-fragment-index="0" -->
 
 ### Life lesson: When things go wrong, trouble shoot systematically.<!-- .element: class="fragment" data-fragment-index="1" -->
