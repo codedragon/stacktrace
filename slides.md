@@ -139,4 +139,4 @@ TypeError: salt is not sugar
 
 # Thank you
 
-# May all of your troubles be easy to troubleshoot.
+## May all of your troubles be easy to troubleshoot.
